@@ -7,7 +7,7 @@ h = 400
 
 cells = []
 
-#populate 2d list with a shit ton of 0s 
+#populate 2d list with 0s 
 for r in range (w):
     cells.append([])
     for c in range(h):
@@ -74,13 +74,10 @@ def sand_Animate() -> None:
 
 
 
-                #literally i fucking hate it here this sucks :////////////////////////
-                #augh fuck 
+              
 
 
 
-
-        #h
 
 
 def header(key) ->None: 
@@ -121,8 +118,7 @@ while key != 'q':
         
 
 
-     
-    #ohhhhh i am sad no focus
+
     if key == 'f':
         if dudraw.mouse_is_pressed() and mouse_in_bounds():
             cells[int (dudraw.mouse_y())][int(dudraw.mouse_x())]  = 2
@@ -162,20 +158,6 @@ while key != 'q':
         
 
     
-    #    
 
-    #Nooooooooo  i      guess i will just ae ea  e e e ae ae ae ae a e
-
-    
-    #if key == 'w ':
-    #     if dudraw.mouse_is_pressed() and mouse_in_bounds(): i dont have m i
-    #what do i wanna do i wanna EAT JESUS CHRIST MPEOPLe 
-    #im so hunru ygy 
-             
-    #         OH MAC AND CHEESE ###
-                
-
-               
-   #i litearlly hate it here 
 
     dudraw.show()
